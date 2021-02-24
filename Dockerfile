@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/ubi7/ubi-minimal
+FROM registry.access.redhat.com/ubi7/ubi-minimal:latest
 
 MAINTAINER Louis P. Santillan <lpsantil@gmail.com>
 
