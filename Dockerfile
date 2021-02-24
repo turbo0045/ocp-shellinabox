@@ -21,6 +21,7 @@ ADD javascript.nanorc /usr/share/nano/javascript.nanorc
 ADD nanorc /tmp/nanorc
 # Enable custom motd
 ADD motd /etc/motd
+RUN microdnf update -y
 
 # Install EPEL
 # Install our developer tools (tmux, ansible, nano, vim, bash-completion, wget)
