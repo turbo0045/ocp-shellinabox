@@ -35,7 +35,7 @@ ADD motd /etc/motd
 RUN echo "" && \
     cat /opt/siab.logo.txt && \
     echo "=== Installing EPEL ===" && \
-    curl -o /tmp/epel.rpm http://dl.fedoraproject.org/pub/epel/7/x86_64/Packages/e/epel-release-7-11.noarch.rpm && \
+    curl -o /tmp/epel.rpm http://dl.fedoraproject.org/pub/epel/7/x86_64/Packages/e/epel-release-7-13.noarch.rpm && \
     rpm -ivh /tmp/epel.rpm && \
     echo "\n=== Installing developer tools ===" && \
     microdnf \
